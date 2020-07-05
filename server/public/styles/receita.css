@@ -1,0 +1,45 @@
+p{
+    text-align: justify;
+}
+.cards{
+    position: relative;
+}
+.card{
+    cursor: auto;
+    margin: 20px;
+    width: 100%;
+    min-height: 700px;
+}
+.card .header{
+    margin: 10px 0px 4% 12%;
+    padding: 0px 5%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+.card img{
+    
+    height: 20vh;
+    border-radius: 15px;
+    width: 50%;
+}
+
+.cards .header .text p{
+    text-align: center;
+}
+
+.info{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 10px auto;
+    gap: 5% 7%;
+   grid-template-areas: "ingredientes Preparo"
+                            "obs obs"   
+}
+
+.info .obs{
+    grid-area: obs;
+}

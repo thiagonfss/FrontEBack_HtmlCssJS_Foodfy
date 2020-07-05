@@ -1,0 +1,47 @@
+#text{
+    background-color: #FBDFDB;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 6% 7.1% 0;
+}
+#text section{
+    width: 316px;
+}
+#text section h1{
+    margin: 10.6% 0 0.9%;
+    font-size: 32px;
+    line-height: 38px;
+}
+#text section p{
+    font-size: 18px;
+    line-height: 28px;
+}
+.content h2{
+    margin-top: 4.5%;
+}
+.cards{
+    margin: 4.5% 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.4%;
+}
+.cards img{
+    width: 100%;
+    height: 20vh;
+    border-radius: 15px;
+    margin: 8.9% 0 1.9%;
+}
+.cards  h3{
+    size: 18px;
+    line-height: 21px;
+}
+.cards  p{
+    margin: 1% auto;
+    color: #777777;
+}
+#receitas{
+    margin: 0 16.4%;
+}
+
